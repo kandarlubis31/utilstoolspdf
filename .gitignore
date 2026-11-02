@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Artifacts kerja (output PDF, tmp)
+*.tmp.pdf
+*_BARU.pdf
+
+# OS
+Thumbs.db
+.DS_Store
+
+# --- backup envelope (auto) ---
+.env
+.env.*
+!.env.example
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.dart_tool/
+build/
+dist/
+.next/
+.expo/
+output/
+*.log
+.DS_Store
+Thumbs.db
+nul
+

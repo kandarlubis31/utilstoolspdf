@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utilstoolspdf"
+version = "0.1.0"
+description = "Toolkit PDF offline untuk Windows: info, scan, merge, img2pdf, html2pdf, photo, split, compress."
+readme = "README.md"
+requires-python = ">=3.13"
+license = { text = "MIT" }
+authors = [{ name = "Kandar Lubis" }]
+dependencies = [
+    "pymupdf>=1.24",
+    "pypdf>=4.0",
+    "Pillow>=10.0",
+]
+
+[project.scripts]
+pdftools = "pdftools.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
