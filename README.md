@@ -122,3 +122,9 @@ src/pdftools/
   cmds/         # info, scan, merge, img2pdf, html2pdf, photo, split, compress
 tests/          # 22 test + fixtures pembuat PDF mini
 ```
+
+---
+
+## English
+
+**pdftools (`utilstoolsPDF`)** is an offline PDF toolkit for Windows, built purely as a CLI: no GUI and no internet access. Commands cover inspecting a PDF, scanning many PDFs for keywords, and merging documents with metadata.
